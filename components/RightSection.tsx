@@ -37,7 +37,7 @@ const RightSection = async ({user}:User) => {
                             </div>
                             <div className="rounded-md border border-zinc-50 p-2">
                                <p className="text-sm font-semibold">Show me a code snippet</p>
-                               <p className="text-xs">of a website's sticky header</p>
+                               <p className="text-xs">of a website sticky header</p>
                             </div>
                             <div className="rounded-md border border-zinc-50 p-2">
                                <p className="text-sm font-semibold">Help me pick</p>

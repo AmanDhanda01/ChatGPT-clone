@@ -20,8 +20,8 @@ const QuesList = async ({dbuser}:User) => {
   return (
     <div className="w-full px-3 py-1 text-sm flex flex-col gap-3">
          {result.sort((a,b) => b.createdAt.getTime()-a.createdAt.getTime()).map((queArray) =>(
-           <Link href={`/c/${queArray.id}`}>
-             <QueTag key={queArray.id} queArray={queArray}/>
+           <Link key={queArray.id} href={`/c/${queArray.id}`}>
+             <QueTag  queArray={queArray}/>
             </Link>
          ))}
     </div>
